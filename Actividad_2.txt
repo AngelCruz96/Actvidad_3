@@ -1,0 +1,20 @@
+var mes = prompt ("Ingresa un numero  para la verificacion de las estaciones del año ")
+
+
+if(mes <= 2){
+  alert ("Es Invierno")
+}else if(mes < 6){
+  alert ("Es Primavera")
+}else if(mes < 9){
+  alert ("Es Verano")
+}else if(mes < 12){
+  alert ("Es Otoño")
+}else if(mes < 13){
+  alert ("Es Invierno")
+
+}
+else{
+  alert ("El numero no es el apropiado solo escoge del 1 al 12")
+}
+
+alert("Mi carnet es: 21003457 y mi nombre es: Angel Salvador Cruz Suarez ")
